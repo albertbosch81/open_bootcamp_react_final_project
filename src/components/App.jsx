@@ -1,4 +1,5 @@
 import React from 'react';
+import TaskListContainer from './containers/taskListContainer';
 // import Tasklist from './lists/TaskList';
 // import Settings from './settings/Settings';
 
@@ -8,8 +9,10 @@ import React from 'react';
  */
 const App = () => {
     return (
-      <div>
-        <h1>Test final</h1>
+      <div className='App'>
+        <header className='App-header'>
+          <TaskListContainer />
+        </header>
       </div>
     );
 };
