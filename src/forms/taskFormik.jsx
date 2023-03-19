@@ -57,8 +57,6 @@ const TaskFormik = ({ add }) => {
                                 <ErrorMessage name='description' component='div'></ErrorMessage>
                             )
                         }
-                        <Field id='completed' name='completed' placeholder='Task completed' type='checkbox' className='ms-3 me-2'></Field>
-                        <label htmlFor='completed'>Task completed</label>
                         <div className='mt-3'>
                             <button type="submit" className='btn btn-primary' style={{minWidth:'15em'}}>Add todo</button>
                         </div>

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 // import { Provider } from 'react-redux';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css'
 import './styles/css/App.css'
 // import './styles/css/index.scss';
 import App from './components/App';
